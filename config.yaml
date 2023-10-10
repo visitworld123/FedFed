@@ -1,0 +1,26 @@
+dataset: 'cifar10'
+data_dir: './../data'
+
+
+client_num_in_total: 10
+client_num_per_round: 5
+comm_round: 1000
+global_epochs_per_round: 1
+num_classes: 10 # 10 for CIFAR-10, SVHN, FMNIST and 100 for CIFAR-100
+model_input_channels: 3 # 3 for CIFAR-10, SVHN, CIFAR-100 and 1 for FMNIST
+
+record_tool: 'wandb'  # using wandb or tensorboard
+wandb_record: True
+
+#     tuning these 4 parametes for VAE 
+
+VAE_re: 5.0
+VAE_ce: 2.0
+VAE_kl: 0.005
+VAE_x_ce: 0.4
+
+
+#    strength of noise
+VAE_std1: 0.2
+VAE_std2: 0.25
+noise_type: 'Gaussian'  # Gaussian or Laplace
