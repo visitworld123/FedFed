@@ -37,7 +37,7 @@ Zhiqin Yang*, [Yonggang Zhang*](https://yonggangzhangben.github.io/index.html), 
 
 
 ##  :grimacing: Dependencies and installation
-Before running or modifing the code, you need to:
+Before running or modifying the code, you need to:
 - Make sure Anaconda or Miniconda is installed.
 - Clone this repo to your machine.
   
