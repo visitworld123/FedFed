@@ -5,7 +5,7 @@
 
 <p align="center">
     <a href="https://arxiv.org/abs/2310.05077"><img src="https://img.shields.io/badge/arxiv-2310.05077-silver" alt="Paper"></a>
-    <a href=""><img src="https://img.shields.io/badge/Pub-NeurIPS'23-olive" alt="Pub"></a>
+    <a href="https://neurips.cc/"><img src="https://img.shields.io/badge/Pub-NeurIPS'23-olive" alt="Pub"></a>
     <a href="https://github.com/visitworld123/FedFed"><img src="https://img.shields.io/badge/-github-teal?logo=github" alt="github"></a>
     <a href="https://github.com/visitworld123/FedFed/blob/main/LICENSE"><img src="https://img.shields.io/github/license/visitworld123/FedFed?color=yellow" alt="License"></a>
     <img src="https://badges.toozhao.com/badges/01HCC34YWRKKDC7NYV65TPRCVF/blue.svg" alt="Count">
