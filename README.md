@@ -135,11 +135,12 @@ You can set these parameters by modify  `default.py` or a new `yaml` file and us
 ## :smiley: Citation
 If our work is useful for your research, please consider citing:
 
-    @inproceedings{fedfed,
-        title = {FedFed: Feature Distillation against Data Heterogeneity in Federated Learning},
-        author={Yang, Zhiqin and Zhang, Yonggang and Zheng, Yu and Tian, Xinmei and Peng, Hao and Liu, Tongliang and Han, Bo},
-        booktitle = {Advances in Neural Information Processing Systems},
-        year = {2023}
+    @inproceedings{
+        yang2023fedfed,
+        title={FedFed: Feature Distillation against Data Heterogeneity in Federated Learning},
+        author={Zhiqin Yang and Yonggang Zhang and Yu Zheng and Xinmei Tian and Hao Peng and Tongliang Liu and Bo Han},
+        booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+        year={2023}
     }
 
 
