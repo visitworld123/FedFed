@@ -157,3 +157,6 @@ This Readme is inspired by [codeformer](https://github.com/sczhou/CodeFormer) :s
 ## :phone: Contact
 If you have any questions, please feel free to reach me out at `yangzqccc@buaa.edu.cn`. 
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=visitworld123/FedFed&type=Date)](https://star-history.com/#visitworld123/FedFed&Date)
