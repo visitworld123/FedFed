@@ -167,7 +167,7 @@ class FL_CVAE_cifar(AbstractAutoEncoder):
         #     self.init_bn = nn.BatchNorm2d(3)
         self.noise_mean = args.VAE_mean
         self.noise_std1 = args.VAE_std1
-        self.noise_std2 = args.VAE_std1
+        self.noise_std2 = args.VAE_std2
         self.device = device
         self.noise_type = args.noise_type
         self.encoder_former = nn.Conv2d(1, d // 2, kernel_size=4, stride=2, padding=1, bias=False) if args.dataset == 'fmnist' else \
