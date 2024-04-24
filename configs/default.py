@@ -25,7 +25,7 @@ _C.global_epochs_per_round = 1
 _C.comm_round = 1000
 
 _C.lr = 0.01
-_C.seed = 2
+_C.seed = 0
 
 _C.record_tool = 'wandb'  # using wandb or tensorboard
 _C.wandb_record = False
@@ -38,7 +38,7 @@ _C.VAE_re = 5.0
 _C.VAE_ce = 2.0
 _C.VAE_kl = 0.005
 
-_C.VAE_std1 = 0.2
+_C.VAE_std1 = 0.15
 _C.VAE_std2 = 0.25
 _C.VAE_x_ce = 0.4
 
