@@ -14,7 +14,7 @@
 
 <h1 align="center">FedFed: Feature Distillation against Data Heterogeneity in Federated Learning  (NeurIPS 2023)</h1>
 
-Zhiqin Yang*, [Yonggang Zhang*](https://yonggangzhangben.github.io/index.html), [Yu Zheng](https://scholar.google.com/citations?user=fH3uUgYAAAAJ&hl=zh-CN&oi=ao), 
+[Zhiqin Yang*](https://visitworld123.github.io/), [Yonggang Zhang*](https://yonggangzhangben.github.io/index.html), [Yu Zheng](https://scholar.google.com/citations?user=fH3uUgYAAAAJ&hl=zh-CN&oi=ao), 
 [Xinmei Tian](https://scholar.google.com/citations?user=-tels3wAAAAJ&hl=zh-CN&oi=ao), [Hao Peng](https://penghao-bdsc.github.io/), [Tongliang Liu](https://tongliang-liu.github.io/), [Bo Han](https://bhanml.github.io/)
 
 **Keywords**: Feature Distillation, Data Heterogeneity, Federated Learning
