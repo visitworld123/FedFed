@@ -46,7 +46,7 @@ Before running or modifying the code, you need to:
   git clone https://github.com/visitworld123/FedFed
   cd FedFed
 
-  # create new anaconda env 
+  # create a new Anaconda env 
   conda create -n FedFed python=3.8 -y
   conda activate FedFed  
   ```
@@ -69,7 +69,7 @@ python main.py --config_file config.yaml
 
 In config.yaml, you can change the hyper-parameters and some settings. In our experiments, we use wandb as the default tool to record the running metrics like Acc and Loss. If you don't want to use wandb, you can set `wandb_record = False`. And if you want to use tensorboard to record, you can set `record_tool = 'tensorboard`.
 
-Please refer to the `./configs/default.py` file for the list of parameters. We list some main parameters and its meaning to help quick start. 
+Please refer to the `./configs/default.py` file for the list of parameters. We list some main parameters and their meaning to help quick start. 
 
 You can set these parameters by modify  `default.py` or a new `yaml` file and use it by `--config_file xxx.yaml`. 
 
@@ -122,9 +122,9 @@ You can set these parameters by modify  `default.py` or a new `yaml` file and us
 
 ```
 ### :jigsaw: How to extend based on our code
- In the directory of `/algorithms_standalone/basePS`. It contains three file: aggregator.py, basePSmanager.py, and client.py. 
+ In the directory of `/algorithms_standalone/basePS`. It contains three files: aggregator.py, basePSmanager.py, and client.py. 
  
- These three files have some basic functions that in FL. If you want to implement your own algorithm based on our code. Your new aggregator, client and manager can inherit from these basic classes. 
+ These three files have some basic functions for FL. If you want to implement your own algorithm based on our code. Your new aggregator, client and manager can inherit from these basic classes. 
 
  
 ## :rose: Experimental results
@@ -146,7 +146,7 @@ If our work is useful for your research, please consider citing:
 
 ## :closed_book: License
 
-This project is licensed under <a rel="license" href=""> MIT</a>. Redistribution and use should follow this license.
+This project is licensed under <a rel="license" href="LICENSE"> MIT</a>. Redistribution and use should follow this license.
 
 ## :smiling_face_with_three_hearts: Acknowledgement
 
