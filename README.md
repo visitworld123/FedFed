@@ -20,7 +20,11 @@
 **Keywords**: Feature Distillation, Data Heterogeneity, Federated Learning
 
 **Abstract**: Federated learning (FL) typically faces data heterogeneity, i.e., distribution shifting among clients. Sharing clients’ information has shown great potentiality in mitigating data heterogeneity, yet incurs a dilemma in preserving privacy and promoting model performance. To alleviate the dilemma, we raise a fundamental question: Is it possible to share partial features in the data to tackle data heterogeneity? In this work, we give an affirmative answer to this question by proposing a novel approach called **Fed**erated **Fe**ature **d**istillation (FedFed). Specifically, FedFed partitions data into performance-sensitive features (i.e., greatly contributing to model performance) and performance-robust features (i.e., limitedly contributing to model performance). The performance-sensitive features are globally shared to mitigate data heterogeneity, while the performance-robust features are kept locally. FedFed enables clients to train models over local and shared data. Comprehensive experiments demonstrate the efficacy of FedFed in promoting model performance
+### News⭐⭐⭐⭐
 
+**Our paper about the robust FL algorithms evaluation with a new algorithm has been accepted by NeurIPS 2025, please check our [FedGPS](https://arxiv.org/abs/2510.20250). In the [open-source code](https://github.com/visitworld123/FedGPS) of FedGPS we provide a clearer codebase for FedAvg to implement your FL algorithms**
+
+**We also have the plan to opensource a comprehensive benchmark and open-source code base for FL under imperfect scenarios. Please contact me by email if you have an interest:yangzqccc@gmail.com**
 ## The Table of Contents
 - [:grimacing: Dependencies and installation](#grimacing-dependencies-and-installation)
 - [:partying\_face: How to run:](#partying_face-how-to-run)
